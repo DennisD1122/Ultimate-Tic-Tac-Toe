@@ -200,7 +200,6 @@ vector<pair<int,int>> find_possible_next_squares(vector<vector<char>> board, pai
 
 int alphabeta(vector<vector<char>> board, pair<int,int> square, int depth, int alpha, int beta, bool maximizing_player) {
 	if (depth == 0) {
-		//print_board(board);
 		return heuristic_value(board);
 	}
 
@@ -395,7 +394,7 @@ int main() {
 	while (true) {
 		cout << "Enter the computer's search depth (non-negative integer):" << endl;
 		cout << "This represents how many moves ahead the computer looks." << endl;
-		cout << "If you want the game to be easy, choose 0. If you want it to be hard, choose 5. You can choose anything in between as well." << endl;
+		cout << "If you want the game to be easy, choose 0. If you want it to be hard, choose 5.\nYou can choose anything in between as well." << endl;
 		cout << "Larger values are possible, but the computer might take too long to figure out its move."<< endl;
 		try {
 			string input;
