@@ -64,4 +64,8 @@ This applies both when choosing the local board and when choosing the individual
 You will be prompted first for the local board, and then for the square.
 However, if you are forced to play in a particular local board, you will only be prompted for the square.
 
+The board will be displayed after every move so you can keep track of how the game is progressing.
+Once a local board has been won, a large X or a large O will be displayed in that board, indicating who won that local board.
+Your goal is to get three in a row of these large X's or O's.
+
 Have fun!
